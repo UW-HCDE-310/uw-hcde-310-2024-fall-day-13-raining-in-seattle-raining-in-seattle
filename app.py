@@ -1,6 +1,5 @@
 
-import flask
-import json
+
 import urllib
 
 from flask import Flask
@@ -19,5 +18,3 @@ def is_it_raining_in_seattle():
         return "<h1>Yes</h1>"
     else:
         return "<h1>No</h1>"
-
-
